@@ -1,9 +1,9 @@
 {
-  "name": "astro-theme-typography",
+  "name": "blog.miyou.top",
   "type": "module",
   "version": "0.1.0",
   "packageManager": "pnpm@9.14.4",
-  "repository": "https://github.com/moeyua/astro-theme-typography",
+  "repository": "https://github.com/miyou2024",
   "scripts": {
     "dev": "astro check && astro dev",
     "build": "astro check && astro build",
