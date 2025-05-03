@@ -40,5 +40,5 @@ prod:
             port: ${REMOTE_PORT}
             command_timeout: 2m
             script: |
-              cd /tmp
+              cd /tmp/dist
               ls -al
