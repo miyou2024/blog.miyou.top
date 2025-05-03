@@ -1,4 +1,4 @@
-main:
+prod:
   push:
     #声明构建环境：https://docs.cnb.cool/zh/
     - docker:
