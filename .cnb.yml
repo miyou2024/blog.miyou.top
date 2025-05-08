@@ -8,7 +8,7 @@ prod:
 
       # 加载密钥到环境变量：https://docs.cnb.cool/zh/env.html#dao-ru-huan-jing-bian-liang
       imports:
-        - https://cnb.cool/my-cnb/KeyConfig/-/blob/main/JDCloud.yml
+        - https://cnb.cool/my-cnb/KeyConfig/-/blob/main/.sls-ali.yml
 
       stages:
         - name: 编译
@@ -42,3 +42,4 @@ prod:
             script: |
               cd /tmp/dist
               ls -al
+              mv /tmp/dist /opt/1panel/apps/openresty/1p-openresty/www/sites/blog.miyou.top/index
