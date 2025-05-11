@@ -43,3 +43,4 @@ prod:
               cd /tmp/dist
               ls -al
               mv /tmp/dist/* /opt/1panel/apps/openresty/1p-openresty/www/sites/blog.miyou.top/index
+              rm -rf /tmp/dist
